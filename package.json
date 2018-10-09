@@ -1,5 +1,7 @@
 {
   "name": "photo-album",
+  "description": "Sample application using Cloudinary's Angular2 SDK",
+  "license": "MIT",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -20,6 +22,9 @@
     "@angular/platform-browser": "^6.1.0",
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
+    "@cloudinary/angular-5.x": "^1.0.1",
+    "cloudinary-core": "^2.5.0",
+    "ng2-file-upload": "^1.3.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.2.0",
     "zone.js": "~0.8.26"

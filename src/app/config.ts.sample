@@ -1,0 +1,6 @@
+export default {
+    cloud_name: 'CCCCCCC',
+    upload_preset: 'UUUUUUUU',
+    cloud_folder: 'sample_folder',
+    cloud_tag: 'sample_tag'
+};
