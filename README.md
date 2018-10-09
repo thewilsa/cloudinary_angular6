@@ -40,14 +40,14 @@ The application routes are defined in [app/js/app.routing.ts](app/js/app.routing
 
 The application has 2 routes:
 
-* **/photos** - Presents a list of images tagged by `myphotoalbum`
+* **/photos** - Presents a list of images tagged by `sample_tag`
 * **/photos/new** - Presents an upload control that allows uploading multiple files by a file input or drag-and-grop.
 Uploads have a dynamic progress bar. In addition it displays the details of successful uploads.  
 
 The default route is set to `/photos`.
 
 #### Services ####
-[photo-album.service.ts](app/js/model/photo-album.service.ts) retrieves the list of images from Cloudinary based on the `myphotoalbum` tag name.
+[photo-album.service.ts](app/js/model/photo-album.service.ts) retrieves the list of images from Cloudinary based on the `sample_tag` tag name.
 
 #### Components ####
 > Photo list
